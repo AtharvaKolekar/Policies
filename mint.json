@@ -19,6 +19,9 @@
       "to": "#07C983"
     }
   },
+  "sidebar": {
+    "items": "border"
+  },
   "background": {
     "style": "windows"
   },
@@ -37,21 +40,13 @@
     "url": "https://athrva.in/dashboard"
   },
   "primaryTab": {
-    "name": "Documentation"
+    "name": "Policies"
   },
   "tabs": [
 
     {
-      "name": "Ethical Hacking",
-      "url": "hack"
-    },
-    {
-      "name": "Sitemap",
+      "name": "Technology",
       "url": "pages"
-    },
-    {
-      "name": "Changelog",
-      "url": "changelog"
     },
     {
       "name": "FAQs",
@@ -77,45 +72,18 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Policies",
       "pages": [
-        "docs/welcome",
-        "docs/quickstart",
-        "docs/development"
-      ]
-    },
-    {
-      "group": "DevKit Tools",
-      "pages": [
-        "docs/cors-anywhere",
-        "docs/markdown",
-        "docs/code",
-        "docs/images",
-        "docs/settings",
-        "docs/navigation",
-        "docs/reusable-snippets"
-      ]
-    },
-    {
-      "group": "Kali Linux",
-      "pages": [
-        "hack/introduction"
-      ]
-    },
-    {
-      "group": "Termux",
-      "pages": [
-        "hack/endpoint/get",
-        "hack/endpoint/create",
-        "hack/endpoint/delete"
-      ]
-    },
-    {
-      "group": "Sitemap",
-      "pages": [
-        "pages/overview"
+        "/overview",
+        "/terms",
+        "/privacy",
+        "/cookies",
+        "/refund",
+        "/contact"
       ]
     }
+
+
   ],
   "footerSocials": {
     "x": "https://twitter.com/Athrva_talks",
