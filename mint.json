@@ -1,0 +1,125 @@
+{
+  "$schema": "https://mintlify.com/schema.json",
+  "name": "Atharva Kolekar DevHub",
+  "feedback": {
+    "thumbsRating": true,
+    "suggestEdit": true
+  },
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
+  "favicon": "/favicon.svg",
+  "colors": {
+    "primary": "#0D9373",
+    "light": "#07C983",
+    "dark": "#0D9373",
+    "anchors": {
+      "from": "#0D9373",
+      "to": "#07C983"
+    }
+  },
+  "background": {
+    "style": "windows"
+  },
+  "topbarLinks": [
+    {
+      "name": "Status",
+      "url": "https://status.athrva.in"
+    },
+    {
+      "name": "Contact",
+      "url": "https://athrva.in/contact"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Go to console",
+    "url": "https://athrva.in/dashboard"
+  },
+  "primaryTab": {
+    "name": "Documentation"
+  },
+  "tabs": [
+
+    {
+      "name": "Ethical Hacking",
+      "url": "hack"
+    },
+    {
+      "name": "Sitemap",
+      "url": "pages"
+    },
+    {
+      "name": "Changelog",
+      "url": "changelog"
+    },
+    {
+      "name": "FAQs",
+      "url": "faqs"
+    }
+  ],
+  "anchors": [
+    {
+      "name": "Home",
+      "icon": "house",
+      "url": "https://athrva.in"
+    },
+    {
+      "name": "Slack",
+      "icon": "slack",
+      "url": "https://mintlify.com/community"
+    },
+    {
+      "name": "Blog",
+      "icon": "rss",
+      "url": "https://blog.athrva.in"
+    }
+  ],
+  "navigation": [
+    {
+      "group": "Get Started",
+      "pages": [
+        "docs/welcome",
+        "docs/quickstart",
+        "docs/development"
+      ]
+    },
+    {
+      "group": "DevKit Tools",
+      "pages": [
+        "docs/cors-anywhere",
+        "docs/markdown",
+        "docs/code",
+        "docs/images",
+        "docs/settings",
+        "docs/navigation",
+        "docs/reusable-snippets"
+      ]
+    },
+    {
+      "group": "Kali Linux",
+      "pages": [
+        "hack/introduction"
+      ]
+    },
+    {
+      "group": "Termux",
+      "pages": [
+        "hack/endpoint/get",
+        "hack/endpoint/create",
+        "hack/endpoint/delete"
+      ]
+    },
+    {
+      "group": "Sitemap",
+      "pages": [
+        "pages/overview"
+      ]
+    }
+  ],
+  "footerSocials": {
+    "x": "https://twitter.com/Athrva_talks",
+    "github": "https://github.com/AtharvaKolekar",
+    "linkedin": "https://www.linkedin.com/in/atharva-kolekar"
+  }
+}

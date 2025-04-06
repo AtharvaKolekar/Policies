@@ -1,0 +1,76 @@
+---
+title: 'CORS Anywhere'
+description: 'Enable cross-origin requests to anywhere by acting as a proxy and adding CORS headers to responses.'
+hideApiMarker: true
+icon: 'face-smile'
+---
+
+## 🔗 Endpoint URL
+<Card title="https://cors.athrva.in/<url>" icon="bolt" href="https://cors.athrva.in/" horizontal ></Card>
+
+<a href="https://hopp.sh/r/vaIrYz2jT0LT"><img src="https://hopp.sh/badge.svg"  alt="Run in Hoppscotch" noZoom /></a>
+
+## 🚀 Usage
+
+### 📜 Show API Help
+Displays help and usage instructions.  
+- **Endpoint:** `/`
+- **Method:** `ANY`
+- **Example:**
+```bash
+curl -X GET https://cors.athrva.in/ 
+```
+
+### ❓ Check if CORS is needed
+This endpoint is served without CORS headers. It can be used to check if a request actually needs CORS.
+- **Endpoint:** `/iscorsneeded`
+- **Method:** `ANY`
+- **Example:**
+```bash
+curl -X GET https://cors.athrva.in/iscorsneeded 
+```
+- **Response:** no/yes
+
+### 🔮 Proxy a Request with CORS
+- **Endpoint:** `/<url>`
+- **Method:** `GET`
+- **Example:**
+  ```bash
+  curl -X GET https://cors.athrva.in/https://example.com
+  ```
+- **Response:** Fetches `https://example.com` and returns the response with CORS headers added.
+
+## 🎯 Try It Out! 
+
+<Accordion title="API Playground" icon="gear">
+    Click `Send` button to make a request.
+    <iframe rounded 
+        src="https://hopp.sh/e/77unBPZn5bSh" 
+        className="w-full rounded-2xl"
+        height="500"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+    ></iframe>
+</Accordion>
+
+## ⏳ Rate Limits
+- ⏱ **5 requests per 20 seconds per IP**
+- 🖥 **No limitations for localhost**
+
+
+
+## 📚 Additional Information
+- Add header `x-auth-user` to bypass rate limits. [Reach me](https://athrva.in/contact) if you are interested in using this special feature in your production app. 
+- For more details and source code, visit the [GitHub repository](https://github.com/AtharvaKolekar/cors-anywhere).
+
+
+
+
+
+
+
+<Info>
+This API is intended **solely for ethical and educational purposes**. Any misuse, abuse, or unauthorized activity is strictly prohibited. 
+</Info>
