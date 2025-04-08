@@ -5,8 +5,12 @@
     "thumbsRating": true,
     "suggestEdit": true
   },
-
+  
   "favicon": "/images/favicon.png",
+  "logo": {
+    "dark": "/logo/dark.svg",
+    "light": "/logo/light.svg"
+  },
   "colors": {
     "primary": "#0D9373",
     "light": "#07C983",
@@ -24,20 +28,20 @@
   },
   "topbarLinks": [
     {
-      "name": "Status",
-      "url": "https://status.athrva.in"
+      "name": "Home",
+      "url": "https://athrva.in" 
     },
     {
-      "name": "Contact",
-      "url": "https://athrva.in/contact"
+      "name": "Status",
+      "url": "https://status.athrva.in"
     }
   ],
   "topbarCtaButton": {
-    "name": "Go to console",
-    "url": "https://athrva.in/dashboard"
+    "name": "Write to us",
+    "url": "https://athrva.in/contact"
   },
   "primaryTab": {
-    "name": "Policies"
+    "name": "Our Policies"
   },
   "tabs": [
 
@@ -50,26 +54,9 @@
       "url": "faqs"
     }
   ],
-  "anchors": [
-    {
-      "name": "Home",
-      "icon": "house",
-      "url": "https://athrva.in"
-    },
-    {
-      "name": "Slack",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "rss",
-      "url": "https://blog.athrva.in"
-    }
-  ],
   "navigation": [
     {
-      "group": "Policies",
+      "group": "",
       "pages": [
         "/overview",
         "/terms",
@@ -82,10 +69,5 @@
     }
 
 
-  ],
-  "footerSocials": {
-    "x": "https://twitter.com/Athrva_talks",
-    "github": "https://github.com/AtharvaKolekar",
-    "linkedin": "https://www.linkedin.com/in/atharva-kolekar"
-  }
+  ]
 }
